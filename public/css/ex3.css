@@ -1,0 +1,43 @@
+#box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+}
+.corner {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+}
+.top {
+    top: -5px;
+    border-top: solid red ;
+}
+.bottom {
+    bottom: -5px;
+    border-bottom: solid red ;
+}        
+.right {
+    right: -5px;
+    border-right: solid red ;
+}
+.left {
+    left: -5px;
+    border-left: solid red ;
+}
+.specialDiv {
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.active{
+    border:  4px dotted blue;
+}
