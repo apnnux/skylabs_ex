@@ -1,0 +1,50 @@
+.button_class{
+    height: 5vw;
+    width: 20vw;
+    color: white;
+    font-size: larger;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+.button_class:hover{
+    background-color: cadetblue;
+    
+    
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+.image{
+    width: 100px;
+    
+    
+}
+#titleBox{
+    text-align: center;
+    border: 3px outset royalblue;
+    border-radius: 30px;
+    
+}
+#buttonBox{
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 5%;
+    border: 3px inset darkcyan;
+    border-radius: 30px;
+    height: 10vw;
+}
+
+#git_button{
+    color: white;
+    background-color: #333;
+    border-radius: 15px;
+    height: 3vw;
+    width: 10vw;
+    margin-bottom: 20px;
+}
+#git_button:hover{
+    background-color: black;
+}
