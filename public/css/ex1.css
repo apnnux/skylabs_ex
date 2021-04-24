@@ -1,0 +1,15 @@
+#test_desc{
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    max-width: 1200px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#test_butt{
+    margin-left: 10px;
+}

@@ -8,7 +8,7 @@
 }
 .button_class:hover{
     background-color: cadetblue;
-    
+    cursor: pointer;
     
 }
 
@@ -47,4 +47,5 @@
 }
 #git_button:hover{
     background-color: black;
+    cursor: pointer;
 }

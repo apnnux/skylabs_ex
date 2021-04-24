@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/ex1.css" rel="stylesheet">
     <title>Exercise 1</title>
 </head>
+
 <body>
-    <div class="title">
+    <div class="text">
         <p>Bug Riscontrati</p>
     </div>
     <div class="text">
@@ -15,7 +17,13 @@
             <li>Al restringimento della pagina gli item "voice x" non si adattano al contenuto ed escono fuori dal contenitore (div) </li>
             <li>I sottomenù a scomparsa "voice x-y" non rimangono visibili dopo l'hover sul menù corrispondente
               rendendo per tanto impossibile un eventuale click degli stessi</li>
+              <li>I pulsanti (teoricamente) dotati di click non permettono al cursore di cambiare grafica in un click-cursor per tanto utenti inesperti potrebbero non rendersi conto che tali siano effettivamente elementi cliccabili</li>
         </ul>
     </div>
+    <button id="test_butt" onclick="indexing(id)">Test review</button>
+    <div id=test_desc>
+        <span>Un approccio di questo tipo adatta dinamicamente tutto il contenuto della pagina, permettendo inoltre di rendere effettivamente cliccabili tutti i subnav in quanto immediatamente adiacenti al corrispondente nav, inoltre i "flayouts" risultano più intuititvi in quanto all'hover sugli stessi il cursore assumen un valore di tipo pointer che ne accentua il loro utilizzo in quanto elementi (teoricamente) responsivi</span>
+    </div>
+    <script src="scripts/ex1.js"></script>
 </body>
 </html>
