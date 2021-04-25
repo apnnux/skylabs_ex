@@ -9,7 +9,7 @@ function indexing(id){
         window.open('ex3.html');
     }
     if(id == 'ex4_butt'){
-        window.open('ex3.html');
+        window.open('ex4.html');
     }
 
     

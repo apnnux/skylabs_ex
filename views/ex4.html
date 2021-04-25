@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/ex4.css" rel="stylesheet">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <div class="tit_container">
+        <img src="img/skylabs_full.png" id="logo_img"/>
+
+        <div id="nav">
+			<ul>
+				<li>
+					Home
+				</li>
+				<li>
+					Categorie
+				</li>
+				<li>
+					Lista Desideri
+				</li>
+				<li>
+					I miei ordini
+				</li>
+				
+			</ul>
+		</div>
+        <img id="cart_img" src="img/cart.png">
+    </div>
+
+    <div>
+        <table id="content_table">
+            <tr class="header">
+                <th colspan="2">Anteprima</th>
+
+                <th align="left">Descrizione</th>
+            </tr>
+
+            <tr>
+                <td width="300px">
+                    <img src="img/scarpa_destra/front.png" class="view_img">
+                </td>
+                <td width="300px">
+                    <img src="img/scarpa_sinistra/front.png" class="view_img">
+                </td>
+                <td rowspan="2">
+                    <table class="info_table">
+                        <tr class="header">
+                            <th align="right">
+                                Nome:
+                            </th>
+                            <td>
+                                <span id="desc"> Dolce & Gabbana </span>
+                            </td>
+                        </tr>
+                        <tr class="header">
+                            <th align="right">
+                                Descrizione:
+                            </th>
+                            <td>
+                                Comode scarpe, semplici Dolce & Gabbana, Uomo/Donna, Colore: Bianco
+                            </td>
+                        </tr>
+                        <tr class="header">
+                            <th align="right">
+                                Taglie disponibili:
+                            </th>
+                            <td>
+                                <Div>
+                                    <select name="taglia" class="patch_butt" onchange="changesel(value)">
+                                        <option value="40" >40</option>
+                                        <option value="41" >41</option>
+                                        <option value="42">42</option>
+                                        <option value="43">43</option>
+                                        <option value="44">44</option>
+                                        <option value="45">45</option>
+                                        <option value="45.5">45.5</option>
+                                    </select>
+                                </Div>
+                            </td>
+                        </tr>
+                        <tr class="header">
+                            <th align="right">
+                                Prezzo:
+                            </th>
+                            <td id="price">
+                                €57,35
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr height="250px">
+                <td width="300px">
+                    <img src="img/scarpa_destra/internal.png" class="view_img">
+                    <img src="img/patch/ad1_right.png" class="patch int left" id="r1">
+                </td>
+                <td width="300px">
+                    <img src="img/scarpa_sinistra/internal.png" class="view_img">
+                    <img src="img/patch/ad1_left.png" class="patch int right" id="l1">
+                </td>
+                
+            </tr>
+
+            <tr height="250px">
+                <td width="300px">
+                    <img src="img/scarpa_destra/external.png" class="view_img">
+                    <img src="img/patch/ad1_left.png" class="patch ext left" id="r2">
+                </td>
+                <td width="300px">
+                    <img src="img/scarpa_sinistra/external.png" class="view_img">
+                    <img src="img/patch/ad1_right.png" class="patch ext right" id="l2">
+                </td>
+
+                <td>
+                    <div>
+                        <button id="p0" class="patch_butt" onclick="buttclick(id)">
+                            <img src="img/patch/empty.png" class="patch_v">
+                        </button>
+                        <button id="p1" class="patch_butt" onclick="buttclick(id)">
+                            <img src="img/patch/ad1_right.png" class="patch_v">
+                        </button>
+                        <button id="p2" class="patch_butt" onclick="buttclick(id)">
+                            <img src="img/patch/ad2_right.png" class="patch_v">
+                        </button>
+                        <button id="p3" class="patch_butt" onclick="buttclick(id)">
+                            <img src="img/patch/ad3_right.png" class="patch_v">
+                        </button>
+                        <button class="cart_butt" onclick="cartbutt()">
+                            <img src="img/cart.png" class="patch_v">
+                            <span >Aggiungi al carrello</span>
+                        </button>
+                    </div>
+
+                </td>
+                
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="footer">
+        <table min-width="1800px" padding="0">
+            <tr>
+                <td>
+                    <img src="img/skylabs.png" id="logo_img">
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="5" id="foosocial">Social</th>
+            </tr>
+            <tr>
+                <td class="fooitem">
+                    <img src="https://lh3.googleusercontent.com/proxy/JaxWPBxrydRLXclkw4r1TKDOscgt86MN__yYYgaW7lMJwTIdy5TU3yrb0KsolY-1Pbabk0F_uX2J3z8u2aGSUMFBhMmIdAJMHiej5-PMzfmst5pq87cjNNFiWakCneYOOGvGUPpfhWiOT45dVtgWHCY229URz0FG" class="footer_img"/>                    
+                </td>
+                <td class="fooitem">
+                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" class="footer_img"/>
+                </td>
+                <td class="fooitem">
+                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" class="footer_img"/>
+                </td>
+                <td class="fooitem">
+                    <img src="https://www.scienzintasca.it/wp-content/uploads/2016/12/linkedin-logo-3.png?x41416" class="footer_img"/>
+                </td>
+                <td class="fooitem">
+                    <img src="https://extra.codemotion.com/app/uploads/2020/03/174571_amazon-logo-png-transparent-background.png" class="footer_img"/>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <script src="scripts/ex4.js"></script>
+</body>
+</html>
