@@ -1,6 +1,9 @@
+$price = "€57,35";
+$patch = "p1";
+$taglia = 40;
+
 function buttclick(id){
-    $price = "€57,35";
-    $patch = id;
+    $patch=id;
 
     searchPicr = new Image(100,100);
     searchPicl = new Image(100,100);
@@ -51,5 +54,5 @@ function cartbutt(){
     if($patch == "p3"){
         $p="Cuore";
     }
-    alert("Modello: "+$("#desc").html()+"\nTaglia: "+$taglia+"\nAdesivo: "+$p+"\n\nPrezzo Totale"+$price+"\n\nAggiunto al carrello")
+    alert("Modello: "+$("#desc").html()+"\nTaglia: "+$taglia+"\nAdesivo: "+$p+"\n\nPrezzo Totale: "+$price+"\n\nAggiunto al carrello")
 }

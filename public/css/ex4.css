@@ -1,38 +1,39 @@
 body{
     margin: 0;
-    min-width: 1800px;
-    min-height: 1080px;
+    
+    
 }
 
 #logo_img{
     float: left;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 13vw;
 }
 
 .header > th{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
 }
 .header > td{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
 }
 
 
 #nav{
     color: aliceblue;
     display: inline-block;
-    font-size: 35px;
+    font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
     
-    height: 60px;
+    height: 6vh;
 }
 #nav ul {
     list-style: none; /* elimino i punti elenco */
     margin: 0px 0px 0px 0px; /* elimino i rientri delle liste */
-    padding: 20px 20px 20px 20px; /* elimino i rientri delle liste */
+    padding: 1vw 1vw 1vw 1vw; /* elimino i rientri delle liste */
     
     
     
@@ -42,23 +43,25 @@ body{
 #footer{
     background-color: #303030;
     color: aliceblue;
-    min-height: 300px;
+    width: 100vw;
+    min-height: 40vh;
+    
 }
 
 .footer_img{
     
-    height: 70px;
+    height: 5vh;
     cursor: pointer;
 }
 
 .fooitem{
-    width: 300px;
+    width: 20vw;
     text-align: center;
 }
 
 #foosocial{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -66,8 +69,8 @@ body{
 
 #nav li {
     display: inline; /* mette gli elementi della lista in linea */
-    padding: 2px 5px 0px 15px;
-    margin: 0px 5px 0px 5px;
+    padding: 1vh 1vw 0px 3vw;
+    margin: 0px 1vw 0px 1vw;
     
 }
 #nav li:hover{
@@ -77,68 +80,68 @@ body{
 #cart_img{
     
     float: right;
-    width: 60px;
-    padding-top: 10px;
-    padding-right: 20px;
+    width: 3vw;
+    padding-top: 1vh;
+    padding-right: 2vw;
 }
 #cart_img:hover{
     cursor: pointer;
 }
 .tit_container{
     background-color: #2868F8;
-    padding-bottom: 20px;
-    height: auto;
-    width: 100%;
-    border-bottom: 5px solid #303030;
-    border-top: 5px solid #172b68;
+    padding-bottom: 2vh;
+    height: 3vw;
+    width: 100vw;
+    border-bottom: 0.5vh solid #303030;
+    border-top: 0.5vh solid #172b68;
 }
 
 #content_table{
     width: 100vw;
-    min-width: 1800px;
+    
 }
 
 .view_img{
-    width: 250px;
+    width: 15vw;
 }
 
 .patch_v{
-    width: 67px;
+    width: 3vw;
 }
 
 .patch{
     position: absolute;
     z-index: 1;
-    width: 35px;
+    width: 2vw;
 }
 .ext{
-    top: 760px;
+    top: 30.8vw;
 }
 
 .int{
-    top: 507px
+    top: 24.8vw;
 }
 
 .left{
-    left: 110px;
+    left: 6.8vw;
 }
 
 .right{
-    left: 410px;
+    left: 21.5vw;
 }
 
 .patch_butt{
     border-radius: 10px;
-    min-height: 60px;
-    min-width: 60px;
-    font-size: 25px;
+    min-height: 3vw;
+    min-width: 3vw;
+    font-size: 2vw;
     cursor: pointer;
 }
 
 .cart_butt{
     float: right;
-    margin-right: 30px;
-    font-size: 60px;
+    margin-right: 2vw;
+    font-size: 3vw;
     border-radius: 10px;   
     cursor: pointer;
 }
