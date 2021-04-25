@@ -1,4 +1,4 @@
-function hide(){
+function show(){
    // alert('ciao');
     var elements = document.getElementsByClassName("corner");
     for (var i = 0, len = elements.length; i < len; i++) {
@@ -9,7 +9,7 @@ function hide(){
     
 }
 
-function show(){
+function hide(){
     var elements = document.getElementsByClassName("corner");
     for (var i = 0, len = elements.length; i < len; i++) {
             elements[i].style.display = "none";

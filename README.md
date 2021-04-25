@@ -1,5 +1,5 @@
 # skylabs exercise
-##Pennisi Andrea
+Pennisi Andrea
 
 Istruzioni per l'uso
 
@@ -9,7 +9,7 @@ Istruzioni per l'uso
 >
 >3. Posizionarsi nella home directory del progetto
 >
->4. Avvia da terminale il comando <span style ="color:orange">npm</span> <span style ="color:blue">.\index.js</span>
+>4. Avvia da terminale il comando "<span style ="color:orange">node</span> <span style ="color:blue">.\index.js</span>"
 >
 >5. Recarsi all'indirizzo <span style ="color:red">localhost:numero_porta</span>
 il numero della porta è indicato nel terminale (di default 3000)
